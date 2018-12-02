@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kcZfkUGrUynTImNFPkAhX+DltVSCk7Q0vIwWaJghYT1f4i4lh+zF4NcAf+2nzmejA3Hz6SOCtl7MaHx8kLJRghYig+akF7/8IFJuaUzSjnWn5e5UYQfTZNZKKSGjpFal0Yc32UqyvyDgTDRPnUAtIWXj1BRXYxwjQu5N6JHazTw9zeDo8a6fdeuo86oVQ9LLpQC3Ld2OHMs4gmctLajOxtrSD/zW2ZuRe6JKr/jsSvPTWozVWN5ok+9sAJYoXMKaIUvY8PJ91yQsrVlvrt9IGD6QvPZiz3pNuOhb58QzXv7/vhoyRgxbxqj8R3Utedj+rX/iHzBatZq3VziAAPtffNWshUTH2uzurHfzk5Y7zcj6xNKuvYqL5oD7cP/J/yQEjptSaSvK6Cawi38ChY9aXco5d621YnrmwkuFogah9ZSpJCkL/Y9SWVyVLM9gE2SgK1Y60fSTDWa0tslqMvpThJbF+KSshnY97hOZi1u94i44bjt34U4tls1KbIVzON/Q8nTnBDCCycu4cM8qObM3Oz20FXF7z3gslaqF1GCsfH7nVNu4AdwPHubEfgwy/cg/mO1ajPdYuVU/qslcUfw6n0FlPIrVlXUt0cW5y1n0TyIktxudiZqrzlce0Lk1EJrI/Yziwj4H60LagdcXeMe5ChaRK3/NIXNHdWt9maxAyOY=
+  app: evening-plains-62471
+  on:
+    repo: ryandthorn/node-shopping-list-integration-tests
