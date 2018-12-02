@@ -1,9 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: dwenopYWcsDobwV+1tSTymgzNNIXJrYuvLp6XooQt5OpeOHt4p6oR0gd0iaHWStENeXk3xXmG4plArYisXvXaGNokGS5eTw46FcoWxNAV/NHT9QVJMJS6alpg6Dzz5t3ZADfDHQk6kgQr3kRoKoLnUQ/sNyZSzXJML8bORq7zj1Tfv9DB0ytze/Na6ho81zvlhyiV/XCo7PGvHpgS1rYZjZMuT5wF+4cIZajh5wU7C0lzWs+nh63iUu/O5a8m7nub+i0//qTocBhDkeKkeuZaWhWlj3iTg9wtni4ab0ehtyiH+GRes3AKN1izMfducdiyLQJtrSp2CutT40T3jewveNFw1zpAQSHFGthcjBCOSo3KxI5N15RYiT4nV8olUzantOCnxHWhQbdmfMnzI0y7i7vjxaK2uotHjdYeFvLUmzyiIHVE9bkKZgw6FoOdw6ZSOAawcU/zx5M0qU5XLQ7im/tvxF3l0Ay2ZUF94nMVt9723SXavYaa+pQNCO8C3euL6scEFOsPgaOkX18+X9VBTfbLs1a3qtY7IIJDm3pOsCJCaxEQ5fSy3KZ5yb47s7qgmULRfu7FXqCsMXM7ba4XnWMF7YjRI6Powc/GSpStj+EdrJfob+/7iG1isbu21Nz9keM2evIRFpJ8klZEb9VbUlDFviuRqt0poQQCx3mXPQ=
-  app: secret-temple-55017
-  on:
-    repo: ryandthorn/node-shopping-list-integration-tests
