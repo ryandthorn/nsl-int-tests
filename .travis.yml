@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Hb4cVwY4ylKrxQFSYGoP2VhqKPcPIGyCKPIbpj5X86UmGQI1LFsD8F7Pj+5BM6do7O9Ur7yk+t/tMNDK5C6dONqv3yo/FxeZXwhkMOjZjnff8b9OOdjf7U5bYUdDhOh5H2uIod2zm31p33wCcCs0yvcsbbG3AAl7CXTckj53yIlc+d0jiPLrdiRQzTcHr1whX9MW+/jMwQVQJeia8yGz6pVyxf2MeB4OK9d5455SA4zeKv0TGIilx0Euzooi8ouobKzTUlvTm37ClqI1dnkl7KYQU0VWCp2CSXN+QUXj5k72H9i0E/D14t5MLeOx0/yIooNDHlKe4o2sX0Gti3EM7sXYFV2K5279rBi//Aq3yr1GMSefc5pvfiPplGBLo3VvjLIyZc6zw8/Pph0NZQjtdpX4GQfx9oZf0FzAf67N8FtGEBV+pvxORLDqmU7Aet4sJ/MR7l0AeCfFLIktyh3pDFOWeSMbMbsaCU5514t8QrXrtUgzxR/FNS5EzXye1zm1iOsGhLREPTPlvpu7n4OmLYevDxRWLSEokod3fuUcHBZ/LjsJpSm+wLabm7ScEM5qYg4uzKro/fjJq6AblVLWUuVfM/O9/gBslKSPrf2kl0pAAOir2t1y62hb6F/3bgmhDJQ6l0J70liHmY1KCARp3tlnkhEZp3lOsURKAOxGya0=
+  app: pure-crag-62096
+  on:
+    repo: ryandthorn/node-shopping-list-integration-tests
